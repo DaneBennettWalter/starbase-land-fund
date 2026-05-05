@@ -186,9 +186,13 @@ export default function Home() {
               </div>
               
               <div className="relative h-96 md:h-[600px] bg-neutral-200 md:order-1">
-                <div className="absolute inset-0 flex items-center justify-center text-neutral-400 text-2xl">
-                  [Team Photo]
-                </div>
+                <Image
+                  src="/tim-lussier.jpg"
+                  alt="Tim Lussier"
+                  fill
+                  className="object-cover"
+                  quality={90}
+                />
               </div>
             </div>
           </div>

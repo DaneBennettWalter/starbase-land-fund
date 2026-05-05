@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import DisclaimerBanner from './components/DisclaimerBanner'
 
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <DisclaimerBanner />
       {/* Hero Section */}
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         {/* Background Image */}
@@ -208,7 +210,7 @@ export default function Home() {
           
           <div className="flex flex-col md:flex-row gap-8 justify-center items-center mb-16">
             <Link 
-              href="/investor-portal"
+              href="/investor-portal/verify"
               className="inline-block text-3xl md:text-5xl font-black bg-black text-white px-16 py-8 hover:bg-white hover:text-black transition-colors duration-300"
             >
               INVESTOR PORTAL
@@ -252,15 +254,20 @@ export default function Home() {
             
             <div>
               <h4 className="text-xl font-bold mb-4">Legal</h4>
-              <p className="text-sm text-white/60 leading-relaxed">
-                This website does not constitute an offer to sell or a solicitation of an offer to buy securities. 
-                Any such offer or solicitation will be made only by means of a confidential private placement memorandum.
-              </p>
+              <nav className="flex flex-col gap-2 text-sm text-white/60">
+                <Link href="/legal/disclosures" className="hover:text-white">Disclosures</Link>
+                <Link href="/legal/privacy-policy" className="hover:text-white">Privacy Policy</Link>
+                <Link href="/legal/terms" className="hover:text-white">Terms of Use</Link>
+              </nav>
             </div>
           </div>
           
-          <div className="mt-16 pt-8 border-t border-white/10 text-center text-white/40">
-            <p>&copy; 2026 Starbase Land Fund. All rights reserved.</p>
+          <div className="mt-16 pt-8 border-t border-white/10">
+            <p className="text-sm text-white/60 leading-relaxed mb-4">
+              This website does not constitute an offer to sell or a solicitation of an offer to buy securities. 
+              Any such offer or solicitation will be made only by means of a confidential private placement memorandum.
+            </p>
+            <p className="text-center text-white/40 text-sm">&copy; 2026 Starbase Land Fund. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -1,10 +1,35 @@
 'use client'
 
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ScrollReveal, ScrollZoom } from '../components/ScrollReveal'
 
 export default function InvestorPortal() {
+  const router = useRouter()
+  const [isVerified, setIsVerified] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    // Check if user has completed verification
+    const verified = sessionStorage.getItem('investor-verified')
+    if (!verified) {
+      router.push('/investor-portal/verify')
+    } else {
+      setIsVerified(true)
+      setIsLoading(false)
+    }
+  }, [router])
+
+  if (isLoading || !isVerified) {
+    return (
+      <div className="min-h-screen bg-black flex items-center justify-center">
+        <div className="text-white text-2xl">Verifying access...</div>
+      </div>
+    )
+  }
+
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Hero */}

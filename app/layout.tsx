@@ -5,7 +5,7 @@ import './globals.css'
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   variable: '--font-space-grotesk',
-  weight: ['300', '400', '700', '900'],
+  weight: ['300', '400', '700'],
 })
 
 const inter = Inter({

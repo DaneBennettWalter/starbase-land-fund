@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Starbase Land Fund
 
-## Getting Started
+**Domain:** sbl.fund  
+**Status:** Phase 1 Complete - Foundation & Home Page  
+**Repository:** https://github.com/DaneBennettWalter/starbase-land-fund
 
-First, run the development server:
+---
 
+## Project Overview
+
+Private equity fund website focused on land acquisition and development in the SpaceX Starbase growth corridor.
+
+**Mission:** Building the infrastructure for humanity's multi-planetary future
+
+---
+
+## Design Direction
+
+**Futuristic Brutalist Minimalist**
+- Massive typography (72px-120px headers, 18-24px body)
+- Bold geometric shapes
+- High contrast (black/white/burnt orange)
+- Large impactful imagery
+- Minimal clutter, maximum impact
+
+**Color Palette:**
+- Primary: Black (#000000), White (#ffffff)
+- Accent: Texas Burnt Orange (#bf5700)
+- Secondary: Deep Space Blue (#0a1929)
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js 16 + React 19
+- **Styling:** Tailwind CSS
+- **Typography:** Space Grotesk (display), Inter (body)
+- **Hosting:** Vercel (pending deployment)
+- **Domain:** sbl.fund (Namecheap)
+
+---
+
+## Current Status
+
+### ✅ Phase 1 Complete (2026-05-05)
+- Next.js foundation
+- Design system implementation
+- Home page with full sections:
+  - Hero (full viewport with Starship imagery)
+  - The Opportunity
+  - The Strategy
+  - The Numbers
+  - The Team
+  - Investor Inquiries CTA
+  - Footer with legal disclaimers
+
+### 🚧 Pending
+- Deploy to Vercel
+- Configure sbl.fund domain
+- Replace placeholder images with licensed/owned photography
+- Add additional pages (Vision, Strategy, Portfolio, Team, Contact)
+- Legal review and compliance verification
+- Analytics setup
+- Performance optimization
+
+---
+
+## Development
+
+**Local development:**
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Build for production:**
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Next Steps
 
-To learn more about Next.js, take a look at the following resources:
+1. **Review design** - Confirm visual direction before building additional pages
+2. **Photography** - Source/license SpaceX/Starbase imagery or use owned photos
+3. **Legal compliance** - Securities attorney review of all copy and disclaimers
+4. **Deploy Phase 1** - Push to Vercel, configure domain
+5. **Build Phase 2** - Additional pages (Vision, Strategy, Portfolio, etc.)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Files
 
-## Deploy on Vercel
+- `FUND-PLAN.md` - Comprehensive fund strategy and website plan
+- `app/page.tsx` - Home page component
+- `app/layout.tsx` - Root layout with fonts and metadata
+- `app/globals.css` - Global styles
+- `tailwind.config.ts` - Tailwind configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Repository:** https://github.com/DaneBennettWalter/starbase-land-fund

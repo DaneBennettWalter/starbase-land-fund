@@ -191,7 +191,7 @@ export default function Home() {
             </Link>
             
             <a 
-              href="mailto:dane@sbl.fund"
+              href="mailto:info@sbl.fund"
               className="inline-block text-3xl md:text-5xl font-black bg-white text-black px-16 py-8 hover:bg-black hover:text-white transition-colors duration-300"
             >
               GET IN TOUCH
@@ -222,7 +222,7 @@ export default function Home() {
             <div>
               <h4 className="text-xl font-bold mb-4">Contact</h4>
               <p className="text-white/60">
-                dane@sbl.fund
+                info@sbl.fund
               </p>
             </div>
             

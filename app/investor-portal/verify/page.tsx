@@ -116,8 +116,8 @@ export default function VerifyPage() {
 
         <p className="text-center text-sm text-white/40 mt-12">
           Questions? Contact us at{' '}
-          <a href="mailto:dane@sbl.fund" className="underline hover:text-white">
-            dane@sbl.fund
+          <a href="mailto:info@sbl.fund" className="underline hover:text-white">
+            info@sbl.fund
           </a>
         </p>
       </div>

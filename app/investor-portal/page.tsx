@@ -401,13 +401,13 @@ export default function InvestorPortal() {
           <ScrollReveal>
             <div className="text-center">
               <a 
-                href="mailto:dane@sbl.fund"
+                href="mailto:info@sbl.fund"
                 className="inline-block text-3xl md:text-5xl font-black bg-black text-white px-16 py-8 hover:bg-white hover:text-black transition-colors duration-300"
               >
                 SCHEDULE CALL
               </a>
               <p className="text-xl md:text-2xl mt-12 font-light">
-                dane@sbl.fund | Accredited investors only
+                info@sbl.fund | Accredited investors only
               </p>
             </div>
           </ScrollReveal>

@@ -147,7 +147,7 @@ export default function Disclosures() {
         </p>
         <p className="font-semibold">
           Starbase Land Fund, LP<br />
-          Email: dane@sbl.fund
+          Email: info@sbl.fund
         </p>
       </section>
 

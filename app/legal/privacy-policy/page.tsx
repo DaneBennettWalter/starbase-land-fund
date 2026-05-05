@@ -118,7 +118,7 @@ export default function PrivacyPolicy() {
           <li><strong>Opt-Out:</strong> Unsubscribe from marketing communications at any time</li>
         </ul>
         <p>
-          To exercise these rights, please contact us at dane@sbl.fund. We will respond to your request within 
+          To exercise these rights, please contact us at info@sbl.fund. We will respond to your request within 
           a reasonable timeframe.
         </p>
       </section>
@@ -149,7 +149,7 @@ export default function PrivacyPolicy() {
           and the right to opt out of the sale of personal information. <strong>We do not sell personal information.</strong>
         </p>
         <p>
-          To exercise your CCPA rights, contact us at dane@sbl.fund.
+          To exercise your CCPA rights, contact us at info@sbl.fund.
         </p>
       </section>
 
@@ -177,7 +177,7 @@ export default function PrivacyPolicy() {
         <p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
         <p className="font-semibold">
           Starbase Land Fund, LP<br />
-          Email: dane@sbl.fund
+          Email: info@sbl.fund
         </p>
       </section>
 

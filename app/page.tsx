@@ -144,58 +144,32 @@ export default function Home() {
       <section className="min-h-screen bg-white text-black flex items-center py-32">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-6xl md:text-8xl lg:text-9xl font-black mb-24 leading-tight">
-            THE TEAM
+            LEADERSHIP
           </h2>
           
-          <div className="space-y-32">
-            {/* Dane Walter */}
-            <div className="grid md:grid-cols-2 gap-16 items-center">
-              <div>
-                <h3 className="text-5xl md:text-6xl font-black mb-6">
-                  Dane Walter
-                </h3>
-                <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
-                  Managing Partner
-                </p>
-                <p className="text-xl md:text-2xl font-light leading-relaxed">
-                  Serial entrepreneur with deep roots in South Texas real estate and community development. 
-                  Portfolio includes historic hotel restoration, construction operations, and property development 
-                  across the Coastal Bend region.
-                </p>
-              </div>
-              
-              <div className="relative h-96 md:h-[600px] bg-neutral-200">
-                <div className="absolute inset-0 flex items-center justify-center text-neutral-400 text-2xl">
-                  [Team Photo]
-                </div>
-              </div>
+          <div className="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
+            <div className="relative h-96 md:h-[600px] bg-neutral-200">
+              <Image
+                src="/tim-lussier.jpg"
+                alt="Tim Lussier"
+                fill
+                className="object-cover"
+                quality={90}
+              />
             </div>
-
-            {/* Tim Lussier */}
-            <div className="grid md:grid-cols-2 gap-16 items-center">
-              <div className="md:order-2">
-                <h3 className="text-5xl md:text-6xl font-black mb-6">
-                  Tim Lussier
-                </h3>
-                <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
-                  Managing Partner
-                </p>
-                <p className="text-xl md:text-2xl font-light leading-relaxed">
-                  Experienced real estate investor and developer with expertise in identifying high-growth 
-                  opportunities in emerging markets. Strategic advisor with deep knowledge of the South Texas 
-                  development landscape.
-                </p>
-              </div>
-              
-              <div className="relative h-96 md:h-[600px] bg-neutral-200 md:order-1">
-                <Image
-                  src="/tim-lussier.jpg"
-                  alt="Tim Lussier"
-                  fill
-                  className="object-cover"
-                  quality={90}
-                />
-              </div>
+            
+            <div>
+              <h3 className="text-5xl md:text-6xl font-black mb-6">
+                Tim Lussier
+              </h3>
+              <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
+                Managing Partner
+              </p>
+              <p className="text-xl md:text-2xl font-light leading-relaxed">
+                Experienced real estate investor and developer with expertise in identifying high-growth 
+                opportunities in emerging markets. Strategic advisor with deep knowledge of the South Texas 
+                development landscape and proven track record of successful projects in transitioning markets.
+              </p>
             </div>
           </div>
         </div>

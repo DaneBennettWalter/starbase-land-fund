@@ -321,55 +321,37 @@ export default function InvestorPortal() {
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <h2 className="text-6xl md:text-8xl font-black mb-20">
-              MANAGING PARTNERS
+              LEADERSHIP
             </h2>
           </ScrollReveal>
 
-          <div className="space-y-32">
-            <ScrollReveal>
-              <div>
-                <h3 className="text-5xl md:text-6xl font-black mb-6">
-                  Dane Walter
-                </h3>
-                <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
-                  Managing Partner
+          <ScrollReveal>
+            <div className="max-w-5xl mx-auto">
+              <h3 className="text-5xl md:text-6xl font-black mb-6">
+                Tim Lussier
+              </h3>
+              <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
+                Managing Partner
+              </p>
+              <div className="text-xl md:text-2xl font-light leading-relaxed space-y-4">
+                <p>
+                  Experienced real estate investor and developer with expertise in identifying high-growth 
+                  opportunities in emerging markets. Strategic advisor with deep knowledge of the South Texas 
+                  development landscape and established relationships with local government and business leaders.
                 </p>
-                <div className="text-xl md:text-2xl font-light leading-relaxed space-y-4 max-w-4xl">
-                  <p>
-                    Serial entrepreneur with deep roots in South Texas real estate and community development. 
-                    Founded multiple successful ventures across landscaping, construction, blockchain, and property development.
-                  </p>
-                  <p>
-                    Current portfolio includes historic Hotel Brendle restoration (67 rooms), Coastal Bend Builders of Texas, 
-                    and multi-property real estate holdings across the region. Self-funded, independent operator with 
-                    proven track record of identifying and capitalizing on emerging market opportunities.
-                  </p>
-                </div>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal>
-              <div>
-                <h3 className="text-5xl md:text-6xl font-black mb-6">
-                  Tim Lussier
-                </h3>
-                <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
-                  Managing Partner
+                <p>
+                  Proven ability to navigate complex zoning, permitting, and development processes. 
+                  Track record of successful projects in transitioning markets with similar dynamics to the Starbase corridor. 
+                  Specializes in large-scale land acquisition and mixed-use development in high-growth corridors.
                 </p>
-                <div className="text-xl md:text-2xl font-light leading-relaxed space-y-4 max-w-4xl">
-                  <p>
-                    Experienced real estate investor and developer with expertise in identifying high-growth 
-                    opportunities in emerging markets. Strategic advisor with deep knowledge of the South Texas 
-                    development landscape and established relationships with local government and business leaders.
-                  </p>
-                  <p>
-                    Proven ability to navigate complex zoning, permitting, and development processes. 
-                    Track record of successful projects in transitioning markets with similar dynamics to the Starbase corridor.
-                  </p>
-                </div>
+                <p>
+                  Tim brings decades of experience evaluating market fundamentals, structuring investment vehicles, 
+                  and executing value-creation strategies in real estate. His approach combines rigorous financial analysis 
+                  with on-the-ground market intelligence to identify opportunities ahead of institutional capital.
+                </p>
               </div>
-            </ScrollReveal>
-          </div>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 

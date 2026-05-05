@@ -1,7 +1,8 @@
 # Starbase Land Fund
 
 **Domain:** sbl.fund  
-**Status:** Phase 1 Complete - Foundation & Home Page  
+**Status:** ✅ LIVE - Phase 1 Complete & Deployed  
+**Production:** https://starbase-land-fund.vercel.app | https://sbl.fund (DNS propagating)  
 **Repository:** https://github.com/DaneBennettWalter/starbase-land-fund
 
 ---
@@ -53,10 +54,10 @@ Private equity fund website focused on land acquisition and development in the S
   - The Team
   - Investor Inquiries CTA
   - Footer with legal disclaimers
+- **✅ Deployed to Vercel**
+- **✅ Domain configured (sbl.fund)**
 
 ### 🚧 Pending
-- Deploy to Vercel
-- Configure sbl.fund domain
 - Replace placeholder images with licensed/owned photography
 - Add additional pages (Vision, Strategy, Portfolio, Team, Contact)
 - Legal review and compliance verification

@@ -145,25 +145,50 @@ export default function Home() {
             THE TEAM
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <h3 className="text-5xl md:text-6xl font-black mb-6">
-                Dane Walter
-              </h3>
-              <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
-                Managing Partner
-              </p>
-              <p className="text-xl md:text-2xl font-light leading-relaxed">
-                Serial entrepreneur with deep roots in South Texas real estate and community development. 
-                Portfolio includes historic hotel restoration, construction operations, and property development 
-                across the Coastal Bend region.
-              </p>
+          <div className="space-y-32">
+            {/* Dane Walter */}
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div>
+                <h3 className="text-5xl md:text-6xl font-black mb-6">
+                  Dane Walter
+                </h3>
+                <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
+                  Managing Partner
+                </p>
+                <p className="text-xl md:text-2xl font-light leading-relaxed">
+                  Serial entrepreneur with deep roots in South Texas real estate and community development. 
+                  Portfolio includes historic hotel restoration, construction operations, and property development 
+                  across the Coastal Bend region.
+                </p>
+              </div>
+              
+              <div className="relative h-96 md:h-[600px] bg-neutral-200">
+                <div className="absolute inset-0 flex items-center justify-center text-neutral-400 text-2xl">
+                  [Team Photo]
+                </div>
+              </div>
             </div>
-            
-            <div className="relative h-96 md:h-[600px] bg-neutral-200">
-              {/* Placeholder for team photo */}
-              <div className="absolute inset-0 flex items-center justify-center text-neutral-400 text-2xl">
-                [Team Photo]
+
+            {/* Tim Lussier */}
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="md:order-2">
+                <h3 className="text-5xl md:text-6xl font-black mb-6">
+                  Tim Lussier
+                </h3>
+                <p className="text-2xl md:text-3xl font-light text-[#bf5700] mb-8">
+                  Managing Partner
+                </p>
+                <p className="text-xl md:text-2xl font-light leading-relaxed">
+                  Experienced real estate investor and developer with expertise in identifying high-growth 
+                  opportunities in emerging markets. Strategic advisor with deep knowledge of the South Texas 
+                  development landscape.
+                </p>
+              </div>
+              
+              <div className="relative h-96 md:h-[600px] bg-neutral-200 md:order-1">
+                <div className="absolute inset-0 flex items-center justify-center text-neutral-400 text-2xl">
+                  [Team Photo]
+                </div>
               </div>
             </div>
           </div>
@@ -177,14 +202,23 @@ export default function Home() {
             INVESTOR<br />INQUIRIES
           </h2>
           
-          <a 
-            href="mailto:dane@sbl.fund"
-            className="inline-block text-3xl md:text-5xl font-black bg-black text-white px-16 py-8 hover:bg-white hover:text-black transition-colors duration-300"
-          >
-            GET IN TOUCH
-          </a>
+          <div className="flex flex-col md:flex-row gap-8 justify-center items-center mb-16">
+            <Link 
+              href="/investor-portal"
+              className="inline-block text-3xl md:text-5xl font-black bg-black text-white px-16 py-8 hover:bg-white hover:text-black transition-colors duration-300"
+            >
+              INVESTOR PORTAL
+            </Link>
+            
+            <a 
+              href="mailto:dane@sbl.fund"
+              className="inline-block text-3xl md:text-5xl font-black bg-white text-black px-16 py-8 hover:bg-black hover:text-white transition-colors duration-300"
+            >
+              GET IN TOUCH
+            </a>
+          </div>
           
-          <p className="text-xl md:text-2xl mt-16 max-w-3xl mx-auto font-light">
+          <p className="text-xl md:text-2xl max-w-3xl mx-auto font-light">
             Starbase Land Fund is open to accredited investors only.
             <br />
             Minimum investment: $250,000
